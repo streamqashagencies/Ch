@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    body-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background: linear-gradient(#d5bfff, #95f5ff);
+    /*  background-size: 400% 400%;
+    animation:bg 12s ease infinite;
+}
+@keyframes bg{
+    0%{
+        background-position:0% 50%;
+    }
+    50%{
+        background-position:100% 100%;
+    }
+    100%{
+        background-position: 0% 50%;
+    } */
+}
+.sign-box {
+
+    position:relative;
+    width: 450px;
+    /*  border: 2px solid #2600ff;
+    border-radius: 20px;
+    background: opacity 0.5; */
+    background: #ffeaff;
+    border-radius: 40px;
+   
+}
+.sign-box form{
+    width: 100%;
+    padding: 0 50px;
+}
+.sign-box h1{
+    text-align:center;
+    /*  position:center;/*  */
+    color:#7a00ff;
+    font-size:2em ;
+    padding: 20px;
+}
+
+.sign-box h2{
+    text-align:center;
+    /*  position:center;/*  */
+    color:#000000;
+    font-size: 2em;
+}
+.input-box{
+    position:relative;
+    margin: 25px 0;
+}
+.input-box input{
+    width: relative;
+    height: 50px;
+    background: transparent;
+    border:2px solid #1100ff;
+    outline:none;
+    border-radius: 40px;
+    transition:2s ease;
+    font-size:1em;
+    color:##000000;
+    padding: 0 20px;
+    
+}
+.input-box input:focus, 
+.input-box input:valid{
+    border-color:#ff0034;
+}
+.input-box label{
+    position:absolute;
+    top:50%;
+    left: 20px;
+    transform:translateY(-50%);
+    font-size:1em;
+    color:#000000;
+    pointer-events:none;
+}
+.input-box input:focus~label, 
+.input-box input:valid~label{
+    top: 1px;
+    font-size: 1em;
+    background:#ff009d;
+    padding: 0 6px;
+    color:#ffffff
+}
+.sign-box p{
+text-align:relative;
+font-weight: bold;
+padding: 20px ;
+    
+}
+.btn{
+    width: 50%;
+    height: 30px;
+    border:none;
+    outline:none;
+    border-radius: 20px;
+    cursor:pointer;
+    font-size: 1em;
+    background:#00abff;
+    font-weight: 600;
+    
+    
+}
